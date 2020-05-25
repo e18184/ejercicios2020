@@ -13,6 +13,12 @@
     </head>
     <body>
         <h1>Los datos enviados son:</h1>
+                 <h2>Nombre:</h2>
+		<%
+		out.println("Nombre:");
+		String cadena0=request.getParameter("nom");
+		out.println(cadena0);
+		%>
         
 		<h2>Apellido paterno:</h2>
 		<%

@@ -14,6 +14,8 @@
     <body>
         <h1>Hello World!</h1>
         <form action="fdestino.htm" method="post">
+            <label>Nombre</label>
+            <input type="text" name="nom" maxlength="20"><br>
             <label>Apellido paterno</label>
             <input type="text" name="ap" maxlength="20">
 			<br>
@@ -24,6 +26,7 @@
              <input type="number" name="edad" min="0" max="99">
 			 <br>
 			 <label>Colegio</label>
+                       
              <select name="colegio">
 			 <option value="1">Colegio Belgrano</option>
 			 <option value="2">Colegio San Luis</option>

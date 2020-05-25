@@ -39,7 +39,7 @@
     -->
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
-          p:viewName="index" />
+          p:viewName="forigen" />
     <bean name="destinoController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="destino" />
