@@ -25,6 +25,8 @@
                 <prop key="fservicio.htm">fservicioController</prop>
                 <prop key="forigen.htm">forigenController</prop>
                 <prop key="fdestino.htm">fdestinoController</prop>
+                <prop key="principal.htm">fprincipalController</prop>
+                <prop key="tabla.htm">ftablaController</prop>
             </props>
         </property>
     </bean>
@@ -55,5 +57,12 @@
     <bean name="fdestinoController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="fdestino" />
+     <bean name="fprincipalController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="principal" />
+     
+     <bean name="ftablaController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="tabla" />
 
 </beans>
