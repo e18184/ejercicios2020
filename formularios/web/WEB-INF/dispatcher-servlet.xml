@@ -21,12 +21,14 @@
             <props>
                 <prop key="index.htm">indexController</prop>
                 <prop key="destino.htm">destinoController</prop>
-                <prop key="fprincipal2.htm">fprincipal2Controller</prop>
+                <prop key="fprincipal.htm">fprincipalController</prop>
                 <prop key="fservicio.htm">fservicioController</prop>
                 <prop key="forigen.htm">forigenController</prop>
                 <prop key="fdestino.htm">fdestinoController</prop>
                 <prop key="principal.htm">fprincipalController</prop>
                 <prop key="tabla.htm">ftablaController</prop>
+                <prop key="labo_tabla1.htm">flabo_tabla1Controller</prop>
+                <prop key="html5.htm">fhtml5Controller</prop>
             </props>
         </property>
     </bean>
@@ -59,10 +61,16 @@
           p:viewName="fdestino" />
      <bean name="fprincipalController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
-          p:viewName="principal" />
+          p:viewName="fprincipal" />
      
      <bean name="ftablaController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="tabla" />
+     <bean name="flabo_tabla1Controller"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="labo_tabla1" />
 
+     <bean name="fhtml5Controller"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="html5" />
 </beans>

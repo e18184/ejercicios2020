@@ -5,9 +5,16 @@
 <meta name="description" content="Ejemplo de HTML5">
 <meta name="keywords" content="HTML5, CSS3, JavaScript">
 <title>Este texto es el título del documento</title>
-<link rel="stylesheet" href="misestilos.css">
+<link rel="stylesheet" href="css/primero.css"> 
 </head>
 <body>
+    <p id="taller"> Mi primer texto</p> 
+    <br>
+    <p id="taller"> Mi segundo texto</p> 
+    <br>
+    <div id="taller"> tercer texto  </div>
+    <br>
+    <label id="taller"> cuarto texto</label>
 <header>
 <h1>Este es el título principal del sitio web</h1>
 </header>

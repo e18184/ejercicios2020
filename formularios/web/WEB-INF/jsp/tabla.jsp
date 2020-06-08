@@ -12,6 +12,7 @@
         <title>tabla</title>
     </head>
     <body>
+        
         <h1>tabla!</h1>
         <table border="1">
             <tr>

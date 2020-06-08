@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-jun-2020, 14:49:23
+    Author     : HAUSE
+*/
+
+/*
+1.-realizar un estilo para modificar el color de las filas de una tabla de 4X4 (referencia a tag). 
+2.- modificar el borde de la tabla (haciendo referencia a id)
+
+*/
+
+tr {
+    background-color: blueviolet 
+}
+#colortabla {
+    border: 10px solid black 
+}

@@ -9,14 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/primero.css"> 
         <title>JSP Page</title>
     </head>
     <body>
         <header></header>
         <nav>
             <u>
-                <li>items 1</li>
-                <li>items 2</li>
+                <li><p>items 1</p></li>
+                <li><p>items 2</p></li>
                 <li>items 3</li>
                 <li>items 4</li>
                 <li>items 5</li> 
