@@ -28,7 +28,13 @@
                 <prop key="principal.htm">fprincipalController</prop>
                 <prop key="tabla.htm">ftablaController</prop>
                 <prop key="labo_tabla1.htm">flabo_tabla1Controller</prop>
+                <prop key="css.htm">cssController</prop>
                 <prop key="html5.htm">fhtml5Controller</prop>
+                <prop key="hijo.htm">fhijoController</prop>
+                <prop key="labodatos.htm">flabodatosController</prop>
+                <prop key="imagen.htm">fimagenController</prop>
+                <prop key="crear.htm">fcrearController</prop>
+                <prop key="boton.htm">botonController</prop>
             </props>
         </property>
     </bean>
@@ -69,8 +75,26 @@
      <bean name="flabo_tabla1Controller"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="labo_tabla1" />
-
+   <bean name="cssController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="css" />
      <bean name="fhtml5Controller"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
-          p:viewName="html5" />
+          p:viewName="html5" />    
+     <bean name="fhijoController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="hijo" />
+     <bean name="flabodatosController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="labodatos" />
+     
+     <bean name="fimagenController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="imagen" />
+      <bean name="fcrearController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="crear" />
+      <bean name="botonController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="boton" />
 </beans>

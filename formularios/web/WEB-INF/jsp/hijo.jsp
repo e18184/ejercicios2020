@@ -11,14 +11,19 @@
 <head>
 <title>Este texto es el título del documento</title>
 <link rel="stylesheet" href="css/misestilos.css">
+<script src="js/primero.js"></script>
 </head>
-<body>
+<body >
 <div id="wrapper">
-<p class="mitexto1">Mi texto1</p>
+    <p class="mitexto1"  onclick="miprimerafuncion();">Mi texto1</p>
 
 <p class="mitexto2">Mi texto2</p> 
 <p class="mitexto3">Mi texto3</p>
 <p class="mitexto4">Mi texto4</p>
+<h1 class="mitexto"> mi texto 5</h1>
+<h2 class="mitexto"> mi texto 5</h2>
+<h3 class="mitexto"> mi texto 5</h3>
+<input type="button" name="aceptar" value="aceptar" >
 <-- elegir a todas clases de p excepto mitexto4 --!>
 </div>
     <br>
