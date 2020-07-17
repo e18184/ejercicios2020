@@ -35,6 +35,7 @@
                 <prop key="imagen.htm">fimagenController</prop>
                 <prop key="crear.htm">fcrearController</prop>
                 <prop key="boton.htm">botonController</prop>
+                <prop key="combo.htm">comboController</prop>
             </props>
         </property>
     </bean>
@@ -97,4 +98,7 @@
       <bean name="botonController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="boton" />
+      <bean name="comboController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="combo" />
 </beans>
